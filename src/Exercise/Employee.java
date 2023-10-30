@@ -1,10 +1,10 @@
 package Exercise;
 
-public class Employee {
+public class Employee  {
     int id;
     String name;
     int age;
-    int hourly;
+    double hourly;
     double completedHours;
 
     public Employee(int id, String name, int age, int hourly, double completedHours) {
@@ -39,7 +39,7 @@ public class Employee {
         this.age = age;
     }
 
-    public int getHourly() {
+    public double getHourly() {
         return hourly;
     }
 

@@ -1,6 +1,7 @@
 package Exercise.fackeDb;
 
 import Exercise.Director;
+import Exercise.Employee;
 import Exercise.Manager;
 import Exercise.Stuff;
 
@@ -8,9 +9,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FDB {
-    List<Stuff> stuffs;
-    List<Director>directors;
-    List<Manager>managers;
+    List<Employee> stuffs;
+    List<Employee>directors;
+    List<Employee>managers;
     private static FDB instance =new FDB();
     private FDB(){
         stuffs =new ArrayList<>();
@@ -48,15 +49,15 @@ public class FDB {
         directors.add(director4);
     }
 
-    public List<Stuff> getStuffs() {
+    public List<Employee> getStuffs() {
         return stuffs;
     }
 
-    public List<Director> getDirectors() {
+    public List<Employee> getDirectors() {
         return directors;
     }
 
-    public List<Manager> getManagers() {
+    public List<Employee> getManagers() {
         return managers;
     }
 
