@@ -1,0 +1,6 @@
+Your class or method should have only one reason to change.
+Your class or method should have only one responsibility to take care of.
+So what does that mean actually? While you design your logic in either class or method,
+you should not be writing all kinds of responsibilities in one place. This will make your code quite complex and unmanageable.
+It will also be difficult to adjust new changes later as there are high chances it will affect the other functionality and you will end up testing
+all the functionalities even though it is a smaller change.
